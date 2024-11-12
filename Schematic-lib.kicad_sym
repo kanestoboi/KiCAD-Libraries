@@ -586,26 +586,26 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at -10.16 21.082 0)
+		(property "Reference" "IC"
+			(at 6.35 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "Bosch_BMI270"
-			(at 6.35 20.32 0)
+		(property "Value" "AS5600-ASOT"
+			(at 2.54 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:Bosch_XDCR_BMI270"
-			(at 0 0 0)
+		(property "Footprint" ""
+			(at 1.27 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -623,7 +623,27 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\nAccelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output\n"
+		(property "Description" ""
+			(at 1.27 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_NAME" "ams"
+			(at -8.89 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "ams"
 			(at 0 0 0)
 			(effects
 				(font
@@ -633,8 +653,8 @@
 				(hide yes)
 			)
 		)
-		(property "PATREV" "1.0"
-			(at 0 0 0)
+		(property "MOUSER_PRICE-STOCK" ""
+			(at 2.54 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -643,28 +663,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Bosch Sensortec"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.87mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "LGA-14 Bosch Sensortec"
-			(at 0 0 0)
+		(property "MOUSER_PART_NUMBER" "985-AS5600-ASOT"
+			(at -3.81 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,7 +674,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at -7.62 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,8 +683,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BMI270/Bosch+Sensortec/view-part/?ref=eda"
-			(at 0 0 0)
+		(property "Package" "SOIC-8 ams"
+			(at -5.08 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -693,8 +693,8 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
+		(property "Check_prices" ""
+			(at 1.27 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,8 +703,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMI270/Bosch+Sensortec/view-part/?ref=snap"
-			(at 0 0 0)
+		(property "HEIGHT" "1.75mm"
+			(at -8.89 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,8 +713,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "BMI270"
-			(at 0 0 0)
+		(property "MP" "AS5600-ASOT"
+			(at -1.27 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,8 +723,38 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3595167&manufacturer=Bosch Sensortec&part_name=BMI270&search_term=bmi270"
-			(at 0 0 0)
+		(property "SnapEDA_Link" ""
+			(at -10.16 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PRICE-STOCK" ""
+			(at 1.27 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ARROW_PART_NUMBER" "AS5600-ASOT"
+			(at -11.43 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 1.27 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,6 +764,16 @@
 			)
 		)
 		(property "Availability" "In Stock"
+			(at -13.97 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "AS5600-ASOT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -743,20 +783,10 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Bosch Sensortec"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(symbol "Bosch_BMI270_0_0"
+		(symbol "AS5600-ASOT_0_0"
 			(rectangle
-				(start -10.16 -20.32)
-				(end 10.16 20.32)
+				(start 1.27 -17.78)
+				(end 21.59 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -766,9 +796,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -2.54 0)
+				(at -3.81 -7.62 0)
 				(length 5.08)
-				(name "SDO"
+				(name "VDD5V"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -783,100 +813,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -15.24 10.16 0)
-				(length 5.08)
-				(name "OSCB"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 10.16 180)
-				(length 5.08)
-				(name "OSDO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 7.62 0)
-				(length 5.08)
-				(name "CSB"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input clock
-				(at -15.24 2.54 0)
-				(length 5.08)
-				(name "SCX"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at -15.24 0 0)
+				(at -3.81 -10.16 0)
 				(length 5.08)
-				(name "SDX"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -15.24 -10.16 0)
-				(length 5.08)
-				(name "ASDX"
+				(name "VDD3V3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -892,9 +832,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 -7.62 0)
+				(at -3.81 -12.7 0)
 				(length 5.08)
-				(name "ASCX"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -910,9 +850,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 15.24 -7.62 180)
+				(at -3.81 -15.24 0)
 				(length 5.08)
-				(name "INT1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -927,10 +867,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 25.4 270)
+			(pin bidirectional line
+				(at 26.67 -15.24 180)
 				(length 5.08)
-				(name "VDDIO"
+				(name "PGO"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -945,309 +885,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 -25.4 90)
-				(length 5.08)
-				(name "GNDIO"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 -25.4 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 25.4 270)
-				(length 5.08)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 15.24 -10.16 180)
-				(length 5.08)
-				(name "INT2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "DS1337S_T_R"
-		(pin_names
-			(offset 1.016)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at -12.7 16.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "DS1337S_T_R"
-			(at 1.524 15.748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Footprints-lib:SOIC127P600X175-8N"
-			(at -1.524 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Analog Devices"
-			(at -1.778 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nI²C Serial Real-Time Clock\n"
-			(at -0.762 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Maxim"
-			(at -0.508 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at -1.778 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DS1337S+T&R/Analog+Devices/view-part/?ref=snap"
-			(at -0.254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "DS1337S+T&amp;R"
-			(at -1.524 32.004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=386900&manufacturer=Analog Devices&part_name=DS1337S+T&amp;R&search_term=ds1337s+t&r"
-			(at -0.254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at -0.762 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DS1337S+T&R/Analog+Devices/view-part/?ref=eda"
-			(at -0.254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(symbol "DS1337S_T_R_0_0"
-			(rectangle
-				(start -12.7 15.24)
-				(end 12.7 -15.24)
-				(stroke
-					(width 0.41)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin input line
-				(at -17.78 -7.62 0)
-				(length 5.08)
-				(name "X1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 -11.43 0)
-				(length 5.08)
-				(name "X2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 7.62 180)
-				(length 5.08)
-				(name "~{INTA}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -20.32 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -17.78 3.81 0)
+				(at 26.67 -12.7 180)
 				(length 5.08)
 				(name "SDA"
 					(effects
@@ -1256,24 +895,6 @@
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 7.62 0)
-				(length 5.08)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
 				(number "6"
 					(effects
 						(font
@@ -1282,10 +903,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 17.78 5.08 180)
+			(pin bidirectional line
+				(at 26.67 -10.16 180)
 				(length 5.08)
-				(name "SQW/~INT"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1300,10 +921,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 20.32 270)
+			(pin bidirectional line
+				(at 26.67 -7.62 180)
 				(length 5.08)
-				(name "VCC"
+				(name "DIR"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1320,38 +941,237 @@
 			)
 		)
 	)
-	(symbol "EVQ-P7C01P"
-		(pin_names
-			(offset 1.016)
-		)
+	(symbol "AS5600-ASOT-1"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "S"
-			(at -2.54 2.54 0)
+		(property "Reference" "U"
+			(at 8.89 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Value" "EVQ-P7C01P"
-			(at -2.54 -2.54 0)
+		(property "Value" ""
+			(at -1.27 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Footprints-lib:SW_EVQ-P7C01P"
-			(at 0 6.096 0)
+		(property "Footprint" "Footprints:SOIC127P600X175-8N"
+			(at -1.27 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -1.27 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AS5600-ASOT-1_0_0"
+			(rectangle
+				(start -10.16 6.35)
+				(end 10.16 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 2.54 11.43 270)
+				(length 5.08)
+				(name "VDD5V"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 11.43 270)
+				(length 5.08)
+				(name "VDD3V3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -11.43 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -1.27 0)
+				(length 5.08)
+				(name "PGO"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 1.27 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 3.81 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -3.81 0)
+				(length 5.08)
+				(name "DIR"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "IQS227D"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 10.414 8.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IQS227D"
+			(at 7.62 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1373,252 +1193,140 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Panasonic Electronic"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
-			(at -0.254 5.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7C01P/Panasonic+Electronic+Components/view-part/?ref=eda"
-			(at 0 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2022.4"
-			(at -0.254 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7C01P/Panasonic+Electronic+Components/view-part/?ref=snap"
-			(at 0 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EVQ-P7C01P"
-			(at -0.254 5.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=577654&manufacturer=Panasonic Electronic&part_name=EVQ-P7C01P&search_term=evqp7c01p"
-			(at 0 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nSwitch;Tactile;3.5x2.9mm;1KV;Right Angle;Light Touch Switch | Panasonic Electronic Components EVQ-P7C01P\n"
-			(at 0 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at -0.508 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 0 6.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(symbol "EVQ-P7C01P_0_0"
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -5.08 0)
-				)
+		(symbol "IQS227D_1_1"
+			(rectangle
+				(start -10.16 7.62)
+				(end 11.43 -8.89)
 				(stroke
-					(width 0.1524)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy 2.794 2.1336)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 0) (xy 2.921 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.54 0)
-				(radius 0.3302)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at -7.62 0 0)
+			(pin bidirectional line
+				(at 13.97 1.27 180)
 				(length 2.54)
-				(name "~"
+				(name "TOUT/SCL/DATA"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1_1"
+				(number "1"
 					(effects
 						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "1_2"
-					(effects
-						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 0 180)
+			(pin power_out line
+				(at -12.7 -7.62 0)
 				(length 2.54)
-				(name "~"
+				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2_1"
+				(number "2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin passive line
-				(at 7.62 0 180)
+			(pin bidirectional line
+				(at 13.97 -1.27 180)
 				(length 2.54)
-				(name "~"
+				(name "POUT/SDA/EVENT"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2_2"
+				(number "3"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 13.97 -3.81 180)
+				(length 2.54)
+				(name "VREG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 6.35 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 13.97 3.81 180)
+				(length 2.54)
+				(name "CX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
